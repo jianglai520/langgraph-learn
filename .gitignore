@@ -1,0 +1,24 @@
+# 环境变量：含密钥，绝不提交
+.env
+.env.*
+!.env.example
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LangGraph 本地运行缓存（langgraph dev 生成的）
+.langgraph_api/
+
+# IDE
+.idea/
+.vscode/
+
+# 本地数据库与日志
+*.sqlite
+*.sqlite3
+*.db
+*.log
